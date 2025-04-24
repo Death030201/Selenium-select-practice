@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "npm install --legacy-peer-deps && vite preview",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,7 +13,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-multiselect-checkbox": "^2.9.0",
+    "react-multi-select-component": "^4.3.4",
     "react-select": "^5.10.1"
   },
   "devDependencies": {
